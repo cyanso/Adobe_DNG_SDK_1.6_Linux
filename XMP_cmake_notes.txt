@@ -29,4 +29,9 @@ from "   		set(XMP_PLATFORM_LINK "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined
 to "   		set(XMP_PLATFORM_LINK "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined  ${XMP_EXTRA_LINK_FLAGS} ${XMP_TOOLCHAIN_LINK_FLAGS} -lrt -Wl,--no-as-needed -ldl -lpthread")
 "
 
-cmake --
+
+
+
+
+
+cmake -DXMP_BUILD_STATIC=ON -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CL_64=ON .

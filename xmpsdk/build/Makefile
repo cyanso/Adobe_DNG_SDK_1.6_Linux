@@ -120,7 +120,7 @@ XMPCoreStatic: cmake_check_build_system
 
 # fast build rule for target.
 XMPCoreStatic/fast:
-	$(MAKE) -f /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPCore/build/gcc/dynamic/i80386linux_64/Release/CMakeFiles/XMPCoreStatic.dir/build.make /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPCore/build/gcc/dynamic/i80386linux_64/Release/CMakeFiles/XMPCoreStatic.dir/build
+	$(MAKE) -f /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPCore/build/CMakeFiles/XMPCoreStatic.dir/build.make /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPCore/build/CMakeFiles/XMPCoreStatic.dir/build
 .PHONY : XMPCoreStatic/fast
 
 #=============================================================================
@@ -133,7 +133,7 @@ XMPFilesStatic: cmake_check_build_system
 
 # fast build rule for target.
 XMPFilesStatic/fast:
-	$(MAKE) -f /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPFiles/build/gcc/dynamic/i80386linux_64/Release/CMakeFiles/XMPFilesStatic.dir/build.make /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPFiles/build/gcc/dynamic/i80386linux_64/Release/CMakeFiles/XMPFilesStatic.dir/build
+	$(MAKE) -f /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPFiles/build/CMakeFiles/XMPFilesStatic.dir/build.make /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPFiles/build/CMakeFiles/XMPFilesStatic.dir/build
 .PHONY : XMPFilesStatic/fast
 
 # Help Target
