@@ -4,4 +4,4 @@ and XMP_Toolkit_sdk https://github.com/adobe/XMP-Toolkit-SDK.
 
 It has been tested on Ubuntu 20.04.
 
-Please read the "*readme.txt" docs if you would like to repeat by yourself.
+Please read the "*readme.txt" docs if you would like a try by yourself.
