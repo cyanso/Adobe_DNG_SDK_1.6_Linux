@@ -1,8 +1,0 @@
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/build/CMakeFiles/rebuild_cache.dir
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/build/CMakeFiles/edit_cache.dir
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPCore/build/CMakeFiles/rebuild_cache.dir
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPCore/build/CMakeFiles/edit_cache.dir
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPCore/build/CMakeFiles/XMPCoreStatic.dir
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPFiles/build/CMakeFiles/rebuild_cache.dir
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPFiles/build/CMakeFiles/edit_cache.dir
-/home/ecopia/codebase/dng_sdk_1_6/xmpsdk/XMPFiles/build/CMakeFiles/XMPFilesStatic.dir
