@@ -1,0 +1,32 @@
+1. Modify the file <xmpsdk>/build/shared/ToolchainGCC.cmake:
+ Set the variable CMAKE_SYSTEM_LIBRARY_PATH to the root of the installed gcc compiler.
+ Change XMP_ENABLE_SECURE_SETTINGS if needed for your gcc configuration.
+2. Open <xmpsdk>/build/ProductConfig.cmake in an editor, then use gcc -v to check whether you
+have enabled the SSP library.
+ If SSP is enabled, set the variable XMP_GCC_LIBPATH to the path containing the static library
+libssp.a, and set the variable the XMP_ENABLE_SECURE_SETTINGS to on.
+ If SSP is disabled, set the variable the XMP_ENABLE_SECURE_SETTINGS to off.
+3. You might need to adjust the environment variables for your distribution and installation. For
+example, LD_LIBRARY_PATH must include folder paths that contain pthread and uuid shared libraries.
+4. Navigate to <xmpsdk>/build/ in a command shell.
+5. To build the toolkit, execute this statement:
+make <target>
+Look at the file <xmpsdk>/build/Makefile to see all of the build options that are available for each
+target. Some of the available targets are:
+all
+clean
+rebuild
+DebugAll
+
+
+
+cmake -DCMAKE_BUILD_TYPE=Debug .
+
+revise Productconfig.cmake
+line 185:
+from "   		set(XMP_PLATFORM_LINK "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined  ${XMP_EXTRA_LINK_FLAGS} ${XMP_TOOLCHAIN_LINK_FLAGS} -lrt -Wl,--no-as-needed -ldl -lpthread ${XMP_GCC_LIBPATH}/libssp.a")
+"
+to "   		set(XMP_PLATFORM_LINK "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined  ${XMP_EXTRA_LINK_FLAGS} ${XMP_TOOLCHAIN_LINK_FLAGS} -lrt -Wl,--no-as-needed -ldl -lpthread")
+"
+
+cmake --
