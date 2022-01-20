@@ -16,10 +16,9 @@ if (MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /DNOMINMAX")
 endif (MSVC)
 
-#set(CMAKE_CL_64 true)
-#if (CMAKE_CL_64)
+if (CMAKE_CL_64)
     add_definitions(-DqDNG64Bit)
-#endif (CMAKE_CL_64)
+endif (CMAKE_CL_64)
 
 
 set(LIBJPEG_DIR ../../../libjpeg)
@@ -174,16 +173,9 @@ endif(UNIX)
 set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
 set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS "")
 
-
-
-
-
 set(XMPROOT "${CMAKE_CURRENT_SOURCE_DIR}/../../../xmp_sdk")
 include_directories(${SRC_DIR} ${LIBJPEG_DIR} ${XMPROOT}/public/include ${XMPROOT}/third-party/zlib ${XMPROOT}/third-party/expat ${XMPROOT}/third-party/zuid)
 
-#set(XMP_BUILD_STATIC "On")
-#set(CMAKE_TOOLCHAIN_FILE "${XMPROOT}/build/shared/ToolchangGCC.cmake")
-#add_subdirectory(${XMPROOT}/build ${XMPROOT}/build)
 # import XMP SDK
 if(${CMAKE_BUILD_TYPE} MATCHES "Debug")
     link_directories(${XMPROOT}/public/libraries/i80386linux_x64/debug)
