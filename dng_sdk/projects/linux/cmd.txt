@@ -1,0 +1,5 @@
+cmake ../cmake/ -DCMAKE_BUILD_TYPE=Release
+
+
+
+./dng_validate -cs1 -v -tif /home/ecopia/data/dng/test.tif /home/ecopia/data/dng/1642524964160168849.dng

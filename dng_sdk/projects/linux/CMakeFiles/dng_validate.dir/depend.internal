@@ -556,8 +556,8 @@ CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_xmp.h
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_xmp_sdk.h
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_xy_coord.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/third-party/zlib/zconf.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/third-party/zlib/zlib.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/third-party/zlib/zconf.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/third-party/zlib/zlib.h
 CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_bottlenecks.cpp.o
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/RawEnvironment.h
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_bottlenecks.cpp
@@ -1091,8 +1091,8 @@ CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_
  /home/ecopia/codebase/dng_sdk_1_6/libjpeg/jmorecfg.h
  /home/ecopia/codebase/dng_sdk_1_6/libjpeg/jpegint.h
  /home/ecopia/codebase/dng_sdk_1_6/libjpeg/jpeglib.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/third-party/zlib/zconf.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/third-party/zlib/zlib.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/third-party/zlib/zconf.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/third-party/zlib/zlib.h
 CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_info.cpp.o
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/RawEnvironment.h
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_1d_function.h
@@ -1918,8 +1918,8 @@ CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_
  /home/ecopia/codebase/dng_sdk_1_6/libjpeg/jmorecfg.h
  /home/ecopia/codebase/dng_sdk_1_6/libjpeg/jpegint.h
  /home/ecopia/codebase/dng_sdk_1_6/libjpeg/jpeglib.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/third-party/zlib/zconf.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/third-party/zlib/zlib.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/third-party/zlib/zconf.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/third-party/zlib/zlib.h
 CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_rect.cpp.o
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/RawEnvironment.h
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_classes.h
@@ -2481,40 +2481,40 @@ CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_utils.h
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_xmp_sdk.cpp
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_xmp_sdk.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/TXMPFiles.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/TXMPIterator.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/TXMPMeta.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/TXMPUtils.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMP.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMP.incl_cpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCommon/Interfaces/BaseInterfaces/ISharedObject.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCommon/Interfaces/BaseInterfaces/IThreadSafe.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCommon/Interfaces/BaseInterfaces/IVersionable.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCommon/Interfaces/IObjectFactory.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCommon/XMPCommonDefines.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCommon/XMPCommonFwdDeclarations.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCommon/XMPCommonLatestInterfaceVersions.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/Interfaces/ICompositeNode.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/Interfaces/ICoreObjectFactory.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/Interfaces/IMetadata.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/Interfaces/INode.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/Interfaces/IStructureNode.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/XMPCoreDefines.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/XMPCoreFwdDeclarations.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMPCore/XMPCoreLatestInterfaceVersions.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMP_Const.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMP_Environment.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMP_IO.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/XMP_Version.h
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/TXMPFiles.incl_cpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/TXMPIterator.incl_cpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/TXMPMeta.incl_cpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/TXMPUtils.incl_cpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/WXMPFiles.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/WXMPIterator.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/WXMPMeta.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/WXMPUtils.hpp
- /home/ecopia/codebase/dng_sdk_1_6/xmpsdk/public/include/client-glue/WXMP_Common.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/TXMPFiles.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/TXMPIterator.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/TXMPMeta.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/TXMPUtils.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMP.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMP.incl_cpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCommon/Interfaces/BaseInterfaces/ISharedObject.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCommon/Interfaces/BaseInterfaces/IThreadSafe.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCommon/Interfaces/BaseInterfaces/IVersionable.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCommon/Interfaces/IObjectFactory.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCommon/XMPCommonDefines.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCommon/XMPCommonFwdDeclarations.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCommon/XMPCommonLatestInterfaceVersions.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/Interfaces/ICompositeNode.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/Interfaces/ICoreObjectFactory.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/Interfaces/IMetadata.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/Interfaces/INode.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/Interfaces/IStructureNode.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/XMPCoreDefines.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/XMPCoreFwdDeclarations.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMPCore/XMPCoreLatestInterfaceVersions.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMP_Const.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMP_Environment.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMP_IO.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/XMP_Version.h
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/TXMPFiles.incl_cpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/TXMPIterator.incl_cpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/TXMPMeta.incl_cpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/TXMPUtils.incl_cpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/WXMPFiles.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/WXMPIterator.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/WXMPMeta.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/WXMPUtils.hpp
+ /home/ecopia/codebase/dng_sdk_1_6/xmp_sdk/public/include/client-glue/WXMP_Common.hpp
 CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_xy_coord.cpp.o
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/RawEnvironment.h
  /home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_1d_function.h

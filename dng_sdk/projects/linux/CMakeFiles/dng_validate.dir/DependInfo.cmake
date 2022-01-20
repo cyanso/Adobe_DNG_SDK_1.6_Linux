@@ -63,10 +63,10 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../source"
   "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../libjpeg"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/public/include"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zlib"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/expat"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zuid"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/public/include"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zlib"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/expat"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zuid"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_1d_function.cpp" "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/linux/CMakeFiles/dng_validate.dir/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/source/dng_1d_function.cpp.o"
@@ -151,10 +151,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../source"
   "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../libjpeg"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/public/include"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zlib"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/expat"
-  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zuid"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/public/include"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zlib"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/expat"
+  "/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zuid"
   )
 
 # Targets to which this target links.

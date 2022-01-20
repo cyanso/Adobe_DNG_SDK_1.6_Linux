@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 2.8.6)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 if (NOT CMAKE_BUILD_TYPE)
-    message(WARNING "No build type selected, defaulting to Release")
-    set(CMAKE_BUILD_TYPE "Release")
+    message(WARNING "No build type selected, defaulting to Debug")
+    set(CMAKE_BUILD_TYPE "Debug")
 endif()
 
 project(dng_sdk)
@@ -15,14 +15,6 @@ project(dng_sdk)
 if (MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /DNOMINMAX")
 endif (MSVC)
-
-# import XMP SDK
-set(XMPROOT "${CMAKE_CURRENT_SOURCE_DIR}/../../../xmpsdk")
-#set(XMP_BUILD_STATIC "On")
-#set(CMAKE_TOOLCHAIN_FILE "${XMPROOT}/build/shared/ToolchangGCC.cmake")
-
-#add_subdirectory(${XMPROOT}/build ${XMPROOT}/build)
-
 
 #set(CMAKE_CL_64 true)
 #if (CMAKE_CL_64)
@@ -182,8 +174,22 @@ endif(UNIX)
 set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
 set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS "")
 
+
+
+
+
+set(XMPROOT "${CMAKE_CURRENT_SOURCE_DIR}/../../../xmp_sdk")
 include_directories(${SRC_DIR} ${LIBJPEG_DIR} ${XMPROOT}/public/include ${XMPROOT}/third-party/zlib ${XMPROOT}/third-party/expat ${XMPROOT}/third-party/zuid)
-link_directories(${XMPROOT}/public/libraries/i80386linux_x64/release)
+
+#set(XMP_BUILD_STATIC "On")
+#set(CMAKE_TOOLCHAIN_FILE "${XMPROOT}/build/shared/ToolchangGCC.cmake")
+#add_subdirectory(${XMPROOT}/build ${XMPROOT}/build)
+# import XMP SDK
+if(${CMAKE_BUILD_TYPE} MATCHES "Debug")
+    link_directories(${XMPROOT}/public/libraries/i80386linux_x64/debug)
+else()
+    link_directories(${XMPROOT}/public/libraries/i80386linux_x64/release)
+endif()
 
 # dng_validate binary
 set(target dng_validate)
@@ -201,7 +207,7 @@ if (UNIX)
                                   dl
                                   XMPCore
                                   XMPFiles
-								  libz.so.1.2.11
+			           libz.so.1.2.11
                                   dl
                                   )
 else (UNIX)

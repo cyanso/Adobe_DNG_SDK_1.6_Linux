@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -O3 -DNDEBUG   -DqDNGValidateTarget=1
+C_FLAGS = -g   -DqDNGValidateTarget=1
 
 C_DEFINES = -DqDNG64Bit
 
-C_INCLUDES = -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../source -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../libjpeg -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/public/include -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zlib -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/expat -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zuid 
+C_INCLUDES = -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../source -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../libjpeg -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/public/include -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zlib -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/expat -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zuid 
 
-CXX_FLAGS =  -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -O2                                      -DNDEBUG                                      -U_FORTIFY_SOURCE   -DqDNGValidateTarget=1
+CXX_FLAGS =  -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -DqDNGDebug=1                                    -O0                                    -ggdb                                    -D_FORTIFY_SOURCE=2   -DqDNGValidateTarget=1
 
 CXX_DEFINES = -DqDNG64Bit
 
-CXX_INCLUDES = -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../source -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../libjpeg -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/public/include -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zlib -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/expat -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmpsdk/third-party/zuid 
+CXX_INCLUDES = -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../source -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../libjpeg -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/public/include -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zlib -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/expat -I/home/ecopia/codebase/dng_sdk_1_6/dng_sdk/projects/cmake/../../../xmp_sdk/third-party/zuid 
 
