@@ -19,9 +19,7 @@ rebuild
 DebugAll
 
 
-
-cmake -DCMAKE_BUILD_TYPE=Debug .
-
+## addtional
 revise Productconfig.cmake
 line 185:
 from "   		set(XMP_PLATFORM_LINK "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined  ${XMP_EXTRA_LINK_FLAGS} ${XMP_TOOLCHAIN_LINK_FLAGS} -lrt -Wl,--no-as-needed -ldl -lpthread ${XMP_GCC_LIBPATH}/libssp.a")
@@ -30,8 +28,5 @@ to "   		set(XMP_PLATFORM_LINK "-z defs -Xlinker -Bsymbolic -Wl,--no-undefined  
 "
 
 
-
-
-
-
+## default cmake command
 cmake -DXMP_BUILD_STATIC=ON -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CL_64=ON .
